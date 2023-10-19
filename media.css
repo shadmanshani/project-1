@@ -1,0 +1,120 @@
+/* header */
+@media (max-width: 600px) {
+	.container {
+		padding: 3rem;
+	}
+
+	.header .content-1 .nav .menu {
+		display: none;
+	}
+
+	.header .content-1 .nav .logo {
+		h2 {
+			font-size: 5rem;
+		}
+	}
+
+	.header .content-1 .nav .bar .btn-primary {
+		display: none;
+	}
+
+	.header .content-1 .nav .bar .three-line {
+		display: inline-block;
+	}
+
+	.bx-menu {
+		font-size: 6rem;
+	}
+
+	/* for down part */
+
+	.header .content-1 .heropart {
+		margin-top: 5rem;
+	}
+
+	.header .content-1 .heropart img {
+		width: 60%;
+	}
+}
+
+/* SECTION_1 */
+
+@media (max-width: 600px) {
+	.section-1 .content-2 {
+		flex-direction: column;
+		padding-bottom: 2rem;
+	}
+
+	.section-1 .content-2 .rightside {
+		padding: 0 2rem;
+	}
+
+	.section-1 .content-2 .rightside p {
+		font-size: 2rem;
+	}
+
+	.section-1 .content-2 .rightside .center {
+		margin-top: 2rem;
+	}
+}
+
+/* SECTION-2 */
+@media (max-width: 600px) {
+	.section-2 .content-3 {
+		padding-top: 6rem;
+		padding-bottom: 2rem;
+	}
+
+	.section-2 .content-3 .my-works {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.section-2 .content-3 .my-works .work {
+		min-width: 90%;
+	}
+
+	.section-2 .content-3 .my-works .work img {
+		width: 100%;
+	}
+
+	.section-2 .content-3 .my-works .work p {
+		font-size: 3rem;
+		margin-top: 5rem;
+	}
+
+	.section-2 .content-3 .my-works .work a {
+		font-size: 2.8rem;
+		margin-top: 1.5rem;
+		margin-bottom: 8rem;
+	}
+
+}
+
+/* SECTION-3 */
+
+@media (max-width: 600px) {
+	.section-3 .content-4 {
+		padding-top: 3rem;
+	}
+
+	.section-3 .content-4 .third-heading {
+		text-align: center;
+	}
+
+	.section-3 .content-4 .third-heading .single-word {
+		color: var(--mtext);
+	}
+
+	.section-3 .content-4 .down-content {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10rem;
+	}
+
+	.section-3 .content-4 .down-content .box {
+		padding: 4rem 5rem;
+		max-width: 90%;
+	}
+}
